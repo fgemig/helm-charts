@@ -1,0 +1,10 @@
+global:
+  imagePullSecrets: []
+
+resources:
+  limits:
+    cpu: 2000m
+    memory: 512Mi
+  requests:
+    cpu: 20m
+    memory: 128Mi
